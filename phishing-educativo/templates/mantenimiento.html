@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema en Mantenimiento</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="maintenance-container">
+        <h1>⚠️ Sistema en Mantenimiento</h1>
+        <p>Lamentamos las molestias. Nuestro servicio estará disponible en breve.</p>
+        
+        <div class="educational-alert">
+            <h2>¡Esta era una simulación de phishing!</h2>
+            <p><strong>En un ataque real, tus credenciales habrían sido robadas.</strong></p>
+            
+            <h3>¿Cómo identificarlo?</h3>
+            <ul>
+                <li>🔍 La URL no coincide con la del banco real.</li>
+                <li>🔒 No hay certificado SSL válido (candado verde).</li>
+                <li>📧 No ingreses datos personales desde enlaces en correos.</li>
+            </ul>
+            
+            <a href="/" class="btn-back">Volver al inicio</a>
+        </div>
+    </div>
+</body>
+</html>
